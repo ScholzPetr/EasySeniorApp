@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:background="#FF000000">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/chooseContact"
+                android:id="@+id/buttonChooseContact"
+                android:onClick="clickOnButtonChooseContact"
+                android:layout_weight="0.5"
+                android:background="#FFFFFFFF"
+                android:layout_margin="2dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/dialNumber"
+                android:id="@+id/buttonDialNumber"
+                android:onClick="clickOnButtonDialNumber"
+                android:layout_weight="0.5"
+                android:background="#FFFFFFFF"
+                android:layout_margin="2dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:background="#FF000000">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/favorite"
+                android:id="@+id/buttonFavorite"
+                android:layout_weight="0.5"
+                android:background="#FFFFFFFF"
+                android:layout_margin="2dp"
+                android:onClick="clickOnButtonFavorite"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/addContact"
+                android:id="@+id/buttonAddContact"
+                android:layout_weight="0.5"
+                android:background="#FFFFFFFF"
+                android:layout_margin="2dp"
+                android:onClick="clickOnButtonAddContact"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lastCall"
+                android:id="@+id/textViewLastCall"
+                android:background="#ff000000"
+                android:textColor="#FFFFFFFF"
+                android:textSize="30dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textViewLastCall1"
+                android:layout_weight="0.5"
+                android:background="#FF000000"
+                android:textColor="#FFFFFFFF"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textViewLastCall2"
+                android:layout_weight="0.5"
+                android:background="#FF000000"
+                android:textColor="#FFFFFFFF"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textViewLastCall3"
+                android:background="#FF000000"
+                android:layout_weight="0.5"
+                android:textColor="#FFFFFFFF"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textViewLastCall4"
+                android:background="#FF000000"
+                android:layout_weight="0.5"
+                android:textColor="#FFFFFFFF"
+                android:gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

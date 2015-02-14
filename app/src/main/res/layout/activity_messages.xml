@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.40">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/sms"
+                android:id="@+id/buttonSms"
+                android:layout_weight="0.5"
+                android:textSize="40dp"
+                android:onClick="clickOnButtonSms" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/email"
+                android:id="@+id/buttonEmail"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.5"
+                android:textSize="40dp"
+                android:onClick="clickOnButtonEmail" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/messengerfb"
+                android:id="@+id/buttonFacebook"
+                android:layout_weight="0.5"
+                android:textSize="30dp"
+                android:onClick="clickOnButtonFacebook" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/addItem"
+                android:id="@+id/buttonAddItem"
+                android:layout_weight="0.5"
+                android:textSize="70dp"
+                android:onClick="clickOnButtonAddItem" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

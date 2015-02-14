@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/chooseSettings"
+            android:id="@+id/textViewDialogSettings"
+            android:padding="15dp"
+            android:gravity="center"
+            android:textSize="30dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settingsApplication"
+            android:id="@+id/buttonSettingsApplication"
+            android:padding="25dp"
+            android:onClick="clickOnButtonSettingsApplication"
+            android:textSize="30dp"
+            android:gravity="center"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settingsSystem"
+            android:id="@+id/buttonSettingsSystem"
+            android:padding="25dp"
+            android:onClick="clickOnButtonSettingsSystem"
+            android:textSize="30dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:id="@+id/buttonSettingsCancel"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:onClick="onClickButtonCancel"/>
+    </LinearLayout>
+
+</LinearLayout>

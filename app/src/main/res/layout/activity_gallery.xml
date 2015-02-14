@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6">
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2" >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/foto"
+                android:id="@+id/buttonPhoto"
+                android:layout_weight="0.5"
+                android:textSize="40dp"
+                android:onClick="clickOnButtonPhoto"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/video"
+                android:id="@+id/buttonVideo"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.5"
+                android:textSize="40dp"
+                android:onClick="clickOnButtonVideo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2" >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/music"
+                android:id="@+id/buttonMusic"
+                android:layout_weight="0.5"
+                android:textSize="40dp"
+                android:onClick="clickOnButtonMusic" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/documents"
+                android:id="@+id/buttonDocuments"
+                android:layout_weight="0.5"
+                android:textSize="26dp"
+                android:onClick="clickOnButtonDocuments" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2" >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/youtube"
+                android:id="@+id/buttonYouTube"
+                android:layout_weight="0.5"
+                android:textSize="36dp"
+                android:onClick="clickOnButtonYouTube" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/streamcz"
+                android:id="@+id/buttonStreamCz"
+                android:layout_weight="0.5"
+                android:textSize="30dp"
+                android:onClick="clickOnButtonStreamCz" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2" >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/addItem"
+                android:id="@+id/buttonAddItem"
+                android:layout_weight="0.5"
+                android:textSize="40dp"
+                android:onClick="clickOnButtonAddItem" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

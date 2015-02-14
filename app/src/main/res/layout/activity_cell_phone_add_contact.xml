@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@android:color/transparent">
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/imageButtonSelect"
+            android:background="#FFFFFFFF"
+            android:longClickable="true"
+            android:layout_weight="0.5"
+            android:maxHeight="100dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editTextDisplayName"
+            android:layout_weight="1"
+            android:inputType="textCapWords"
+            android:hint="@string/displayname"
+            android:textSize="30dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/editTextMobileNumber"
+            android:phoneNumber="true"
+            android:hint="@string/mobilenumber"
+            android:textSize="30dp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:id="@+id/editTextHomeNumber"
+            android:inputType="phone"
+            android:phoneNumber="true"
+            android:hint="@string/homenumber"
+            android:textSize="30dp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:id="@+id/editTextEmail"
+            android:inputType="textWebEmailAddress"
+            android:hint="@string/email"
+            android:textSize="30dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/addContact"
+            android:id="@+id/buttonAddContact"
+            android:onClick="ClickOnButtonAddContact"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+</LinearLayout>

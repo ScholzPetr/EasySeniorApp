@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/callFavorite1"
+            android:id="@+id/textViewFavorite1"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:background="#FF000000"
+            android:textColor="#FFFFFFFF"
+            android:textSize="40dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/callFavorite2"
+            android:id="@+id/textViewFavorite2"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:background="#FF000000"
+            android:textColor="#FFFFFFFF"
+            android:textSize="40dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/callFavorite3"
+            android:id="@+id/textViewFavorite3"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:background="#FF000000"
+            android:textColor="#FFFFFFFF"
+            android:textSize="40dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/callFavorite4"
+            android:id="@+id/textViewFavorite4"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:background="#FF000000"
+            android:textColor="#FFFFFFFF"
+            android:textSize="40dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/callFavorite5"
+            android:id="@+id/textViewFavorite5"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:background="#FF000000"
+            android:textColor="#FFFFFFFF"
+            android:textSize="40dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/callFavorite6"
+            android:id="@+id/textViewFavorite6"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:background="#FF000000"
+            android:textColor="#FFFFFFFF"
+            android:textSize="40dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/callFavorite7"
+            android:id="@+id/textViewFavorite7"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:background="#FF000000"
+            android:textColor="#FFFFFFFF"
+            android:textSize="40dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/callFavorite8"
+            android:id="@+id/textViewFavorite8"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:background="#FF000000"
+            android:textColor="#FFFFFFFF"
+            android:textSize="40dp"/>
+    </LinearLayout>
+</LinearLayout>

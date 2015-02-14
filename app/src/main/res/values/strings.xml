@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EasySeniorApp</string>
+    <string name="action_settings">Nastavení</string>
+    <string name="action_endapp">Konec</string>
+    <string name="battery">progress bar battery</string>
+    <string name="info">Infobar</string>
+
+    <string name="usersettings">Nastavení EasySeniorApp</string>
+    <string name="usersettingssos">Nastavení SOS</string>
+
+    <string name="buttonNewMessage">Napsat novou zprávu</string>
+    <string name="lastMessage">Poslední zprávy:</string>
+    <string name="chooseContact">Vybrat kontakt</string>
+    <string name="telephoneNumber">Zadejte telefonní číslo</string>
+    <string name="textMessage">Zadejte text zprávy</string>
+    <string name="send">Odeslat zprávu</string>
+
+    <string name="cellphone">Telefon</string>
+
+    <string name="find">Hledat</string>
+
+    <!--String for DIAL NUMBER-->
+    <string name="number0">0</string>
+    <string name="number1">1</string>
+    <string name="number2">2</string>
+    <string name="number3">3</string>
+    <string name="number4">4</string>
+    <string name="number5">5</string>
+    <string name="number6">6</string>
+    <string name="number7">7</string>
+    <string name="number8">8</string>
+    <string name="number9">9</string>
+    <string name="numberSymbol">*+#</string>
+    <string name="chooseNumberSymbol">Vyber symbol:</string>
+    <string name="numberSymbolPlus">+</string>
+    <string name="numberSymbolAsterisk">*</string>
+    <string name="numberSymbolDagger">#</string>
+    <string name="dial">Volat</string>
+    <string name="dialNumber">Vytočit číslo</string>
+
+    <string name="displayname">Jméno</string>
+    <string name="mobilenumber">Mobil</string>
+    <string name="homenumber">Domů</string>
+
+    <string name="favorite">Oblíbené</string>
+    <string name="addContact">Přidat kontakt</string>
+    <string name="lastCall">Historie hovorů:</string>
+    <string name="lastCall1">1</string>
+    <string name="lastCall2">2</string>
+    <string name="lastCall3">3</string>
+    <string name="lastCall4">4</string>
+    <string name="callFavorite1">1</string>
+    <string name="callFavorite2">2</string>
+    <string name="callFavorite3">3</string>
+    <string name="callFavorite4">4</string>
+    <string name="callFavorite5">5</string>
+    <string name="callFavorite6">6</string>
+    <string name="callFavorite7">7</string>
+    <string name="callFavorite8">8</string>
+
+    <string name="message">Zprávy</string>
+    <string name="sms">SMS</string>
+    <string name="email">E-mail</string>
+    <string name="messengerfb">Facebook</string>
+    <string name="addItem">+</string>
+
+    <string name="internet">Internet</string>
+
+    <string name="gallery">Galerie</string>
+    <string name="foto">Foto</string>
+    <string name="video">Video</string>
+    <string name="music">Hudba</string>
+    <string name="documents">Dokumenty</string>
+    <string name="youtube">YouTube</string>
+    <string name="streamcz">Stream.cz</string>
+
+    <string name="camera">Fotoaparát</string>
+    
+    <string name="applications">Aplikace</string>
+
+    <string name="about_title">Java.com</string>
+    <string name="about_desc">Descriptionss</string>
+    <string name="action_about">Action about</string>
+
+    <string name="sos">SOS</string>
+    <string name="options">Nastavení</string>
+    <string name="chooseSettings">Vyber položku</string>
+    <string name="settingsSystem">Nastavení systému</string>
+    <string name="settingsApplication">Nastavení aplikace</string>
+    <string name="cancel">Zpět</string>
+    
+    <string name="sositem1name">Integrovaný záchranný systém</string>
+    <string name="sositem1number">112</string>
+    <string name="sositem2name">Hasiči</string>
+    <string name="sositem2number">150</string>
+    <string name="sositem3name">Záchranka</string>
+    <string name="sositem3number">155</string>
+    <string name="sositem4name">Policie</string>
+    <string name="sositem4number">158</string>
+
+</resources>
