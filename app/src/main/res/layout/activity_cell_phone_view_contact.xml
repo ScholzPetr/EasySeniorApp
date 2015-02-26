@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageViewContactPhoto"
+            android:layout_weight="0.3"
+            android:src="@drawable/ic_contact_picture_holo_light"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.7">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/delete"
+                android:id="@+id/buttonDelete"
+                android:layout_weight="0.5"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:onClick="clickOnButtonDelete"
+                android:textSize="15dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/edit"
+                android:id="@+id/buttonEdit"
+                android:layout_margin="5dp"
+                android:layout_weight="0.5"
+                android:textStyle="bold"
+                android:onClick="clickOnButtonEdit"
+                android:textSize="15dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.20">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textViewDisplayName"
+            android:layout_margin="5dp"
+            android:layout_weight="0.3"
+            android:textSize="40dp"
+            android:textIsSelectable="false"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textViewNumber"
+            android:layout_weight="0.3"
+            android:layout_margin="5dp"
+            android:textSize="40dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/sms"
+            android:id="@+id/buttonSms"
+            android:layout_weight="0.5"
+            android:layout_margin="5dp"
+            android:textSize="30dp"
+            android:onClick="clickOnButtonSms"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/call"
+            android:id="@+id/buttonCall"
+            android:layout_weight="0.5"
+            android:layout_margin="5dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:onClick="clickOnButtonCall"/>
+    </LinearLayout>
+</LinearLayout>
