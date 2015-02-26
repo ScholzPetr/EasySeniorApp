@@ -1,6 +1,7 @@
 package com.example.scholzpetr.easyseniorapp;
 
 import android.app.AlertDialog;
+import android.app.Application;
 import android.app.ListActivity;
 import android.app.ProgressDialog;
 import android.content.ActivityNotFoundException;
@@ -64,15 +65,15 @@ public class Applications extends ListActivity {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-
+                new LoadApplications().execute();
+                Applications.this.listadapter.getFilter().filter(s);
             }
 
             @Override
             public void afterTextChanged(Editable s) {
-                new LoadApplications().execute();
+
             }
         });
-
         editTextFindApplications.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
