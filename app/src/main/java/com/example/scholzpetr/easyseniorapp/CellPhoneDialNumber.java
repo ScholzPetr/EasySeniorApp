@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
+import android.text.Editable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -32,7 +33,8 @@ public class CellPhoneDialNumber extends ActionBarActivity {
     private Button buttonDial;
     final Context context = this;
     private EditText editTextDialNumber;
-
+    private int length;
+    Editable text;
     private String helpDialNumber;
 
     @Override
@@ -53,12 +55,11 @@ public class CellPhoneDialNumber extends ActionBarActivity {
         editTextDialNumber.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                findOutText();
-                String clearText = "";
-                for (int i = 0;i < helpDialNumber.length()-1;i++){
-                    clearText = clearText + helpDialNumber.charAt(i);
+                length = editTextDialNumber.getText().length();
+                if (length > 0) {
+                    editTextDialNumber.setText(editTextDialNumber.getText().delete(length - 1, length).toString());
                 }
-                editTextDialNumber.setText(clearText);
+
             }
         });
         buttonNumber0.setOnClickListener(new View.OnClickListener() {

@@ -21,6 +21,9 @@ public class CellPhoneFavorite extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cell_phone_favorite);
         findWidgets();
+        callFavorite1.setText("775321188");
+        callFavorite2.setText("00420728963755");
+        callFavorite3.setText("608638473");
     }
     private void findWidgets(){
         callFavorite1 = (TextView) findViewById(R.id.textViewFavorite1);

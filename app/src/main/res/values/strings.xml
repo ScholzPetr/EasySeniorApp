@@ -39,12 +39,16 @@
     <string name="numberSymbolDagger">#</string>
     <string name="dial">Volat</string>
     <string name="dialNumber">Vytočit číslo</string>
+    <string name="edit">Upravit</string>
 
     <string name="displayname">Jméno</string>
     <string name="mobilenumber">Mobil</string>
     <string name="homenumber">Domů</string>
+    <string name="call">Volat</string>
 
     <string name="favorite">Oblíbené</string>
+    <string name="updateContact">Upravit kontakt</string>
+    <string name="viewContact">Zobrazení kontaku</string>
     <string name="addContact">Přidat kontakt</string>
     <string name="lastCall">Historie hovorů:</string>
     <string name="lastCall1">1</string>
@@ -75,7 +79,7 @@
     <string name="documents">Dokumenty</string>
     <string name="youtube">YouTube</string>
     <string name="streamcz">Stream.cz</string>
-
+    <string name="delete">Smazat</string>
     <string name="camera">Fotoaparát</string>
     
     <string name="applications">Aplikace</string>
@@ -90,7 +94,7 @@
     <string name="settingsSystem">Nastavení systému</string>
     <string name="settingsApplication">Nastavení aplikace</string>
     <string name="cancel">Zpět</string>
-    
+    <string name="menu_settings">Menu nastavení</string>
     <string name="sositem1name">Integrovaný záchranný systém</string>
     <string name="sositem1number">112</string>
     <string name="sositem2name">Hasiči</string>
