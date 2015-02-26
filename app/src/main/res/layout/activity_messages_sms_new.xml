@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:weightSum="1">
-
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="@android:color/transparent"
-        android:focusable="true"
-        android:focusableInTouchMode="true"></LinearLayout>
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textViewCountChar"
+            android:visibility="gone"/>
 
         <Button
             android:layout_width="match_parent"
@@ -37,19 +35,23 @@
             android:phoneNumber="true"
             android:textSize="25dp"
             android:imeOptions="actionNext"
-            android:hint="@string/telephoneNumber" />
+            android:hint="@string/telephoneNumber">
+
+        </EditText>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textAutoCorrect|textMultiLine"
+            android:inputType="text|textMultiLine"
             android:ems="10"
             android:id="@+id/textTextMessage"
-            android:layout_weight="0.85"
+            android:layout_weight="0.86"
             android:textSize="25dp"
             android:gravity="top"
             android:imeOptions="actionDone"
-            android:hint="@string/textMessage" />
+            android:hint="@string/textMessage"
+            >
+        </EditText>
 
         <Button
             android:layout_width="match_parent"

@@ -1,27 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:id="@+id/textViewTvName"/>
-
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_below="@+id/textViewTvName"
-        android:id="@+id/textViewTvPhoto"
-        android:layout_gravity="center_horizontal"
-        android:padding="5dp"/>
+        android:id="@+id/imageViewIvPhoto"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_contact_picture_holo_light"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textViewTvPhoto"
-        android:id="@+id/textViewTvDetails"/>
-</RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:id="@+id/textViewTvName"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewTvPhoto"
+            android:id="@+id/textViewTvDetails"
+            android:textSize="25dp"/>
+    </LinearLayout>
+
+</LinearLayout>
